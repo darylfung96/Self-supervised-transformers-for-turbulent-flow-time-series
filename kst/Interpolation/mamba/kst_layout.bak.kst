@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kst version="2.0.9">
+    <data>
+        <source reader="ASCII file" updateType="2" file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv">
+            <properties vector="INDEX" interpretation="1" delimiters="#" columntype="2" columndelimiter="," headerstart="0" fields="0" readfields="false" usedot="true" columnwidthisconst="false" readunits="false" units="0" limitFileBuffer="false" limitFileBufferSize="0" useThreads="0" asciiTimeFormat="hh:mm:ss.zzz" dataRate="1" offsetDateTime="false" offsetFileDate="false" offsetRelavive="true" dateTimeOffset="2024-02-12T22:59:22Z" relativeOffset="0" nanValue="0" updateType="2"/> initialXNum="1" initialTNum="1" initialDSNum="1"
+        </source>
+    </data>
+    <variables>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 2" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Time" initialVNum="1" initialXNum="1"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 3" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Spline" initialVNum="2" initialXNum="15"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 4" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Transformer one probe" initialVNum="3" initialXNum="29"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 5" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Transformer case" initialVNum="4" initialXNum="43"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 6" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Transformer cases across domain" initialVNum="5" initialXNum="57"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 7" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Mamba one probe" initialVNum="6" initialXNum="71"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 8" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Mamba case" initialVNum="7" initialXNum="85"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 9" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Mamba cases across domain" initialVNum="8" initialXNum="99"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/Interpolation/mamba/prediction/sparsity 3/case 1.csv" field="Column 10" start="10" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Ground Truth" initialVNum="9" initialXNum="113"/>
+        <scalar orphan="true" hidden="true" value="0.05" initialXNum="179"/>
+        <scalar orphan="true" hidden="true" value="2" initialXNum="180"/>
+        <scalar orphan="true" hidden="true" value="0.1" initialXNum="194"/>
+        <scalar orphan="true" hidden="true" value="1" initialXNum="195"/>
+        <scalar orphan="true" hidden="true" value="3" initialXNum="196"/>
+        <scalar orphan="true" hidden="true" value="0.5" initialXNum="197"/>
+        <scalar orphan="true" hidden="true" value="0.2" initialXNum="198"/>
+        <scalar orphan="true" hidden="true" value="0.6" initialXNum="199"/>
+        <scalar orphan="true" hidden="true" value="0.55" initialXNum="200"/>
+        <scalar orphan="true" hidden="true" value="0.52" initialXNum="201"/>
+        <scalar orphan="true" hidden="true" value="0.53" initialXNum="202"/>
+        <scalar orphan="true" hidden="true" value="0.54" initialXNum="203"/>
+    </variables>
+    <objects>
+        <powerspectrum vector="Spline (V2)" samplerate="632054" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="10" initialXNum="127" initialPSDNum="1"/>
+        <equation expression="[Spline:f (V10)]*0.0047/579.3" xvector="Spline:psd (V11)" interpolate="true" descriptiveNameIsManual="true" descriptiveName="Spline St" initialVNum="12" initialXNum="153" initialENum="1"/>
+        <plugin type="Low Pass Filter" initialVNum="14" initialXNum="179" initialPNum="1">
+            <inputvector type="Y Vector" tag="Spline St:x (V12)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.1 (X194)"/>
+            <inputscalar type="Order Scalar" tag="0.53 (X202)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+    </objects>
+    <relations>
+        <curve xvector="Time (V1)" yvector="Spline (V2)" color="#20ffff" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="0" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="1"/>
+        <curve xvector="Time (V1)" yvector="Transformer one probe (V3)" color="#0000ff" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="1" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="2"/>
+        <curve xvector="Time (V1)" yvector="Transformer case (V4)" color="#996633" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="2" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="3"/>
+        <curve xvector="Time (V1)" yvector="Transformer cases across domain (V5)" color="#21ff06" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="3" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="4"/>
+        <curve xvector="Time (V1)" yvector="Mamba one probe (V6)" color="#fc02ff" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="4" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="5"/>
+        <curve xvector="Time (V1)" yvector="Mamba case (V7)" color="#fd8008" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="5" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="6"/>
+        <curve xvector="Time (V1)" yvector="Mamba cases across domain (V8)" color="#800080" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="7"/>
+        <curve xvector="Time (V1)" yvector="Ground Truth (V9)" color="#000000" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="7" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="8"/>
+        <curve xvector="Spline:f (V10)" yvector="Spline:psd (V11)" color="#501010" alpha="255" headcolor="#105010" headalpha="255" barfillcolor="#aa0000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="7" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="9"/>
+        <curve xvector="Spline St:y (V13)" yvector="Spline St:x (V12)" color="#0000aa" alpha="255" headcolor="#005500" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="7" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="10"/>
+        <curve xvector="Spline St:y (V13)" yvector="Spline St:x Low Pass:Y (V14)" color="#aa00aa" alpha="255" headcolor="#2e5778" headalpha="255" barfillcolor="#350a0a" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="7" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="11"/>
+    </relations>
+    <graphics currentTab="3">
+        <view name="Pressure Signal" width="1663" height="821" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="true" toplabelvisible="true" globalfont=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" globalfontscale="16" globalfontcolor="#000000" showlegend="true" hidebottomaxislabel="false" hidetopaxislabel="false" hideleftaxislabel="false" hiderightaxislabel="false" numberaxislabelscale="true" initialPlotNum="1" name="Plot">
+                <position x="831.4989999999999" y="405.54565" z="500"/>
+                <rect x="-828.5056" y="-402.54900000000004" width="1656.0153999999998" height="814.0215000000001"/>
+                <relativesize width="0.9957999999999999" height="0.9915" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00364999999999999" leftx="0.0017999999999999726" lefty="0.9951500000000001" rightx="0.9975999999999998" righty="0.9951500000000001" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="9.6" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-767.3422307112461" y="-329.4235755915318" z="500"/>
+                    <rect x="0" y="0" width="231.7293024662366" height="35.21784981327206"/>
+                    <relativesize width="0.14095324317900954" height="0.04391135376454628" centerx="0.10768026900591818" centery="0.0981698736444151" posx="0.0372036474164134" posy="0.07621419676214196" leftx="0.0372036474164134" lefty="0.12012555052668825" rightx="0.17815689059542295" righty="0.12012555052668825" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Ground Truth vs Time (C8)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="7143482"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="Ground Truth" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="Time" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="0.010804225" y="-21839.986" width="0.0021264329999999988" height="47048.066000000006"/>
+            </plot>
+        </view>
+        <view name="Zoom" width="1663" height="811" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="true" toplabelvisible="true" globalfont=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" globalfontscale="16" globalfontcolor="#000000" showlegend="false" hidebottomaxislabel="false" hidetopaxislabel="false" hideleftaxislabel="false" hiderightaxislabel="false" numberaxislabelscale="true" initialPlotNum="2" name="Plot">
+                <position x="831.4989999999999" y="405.50910000000005" z="500"/>
+                <rect x="-828.5056" y="-402.5084" width="1656.0153999999998" height="804.0254"/>
+                <relativesize width="0.9957999999999999" height="0.9914" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00370000000000004" leftx="0.0017999999999999726" lefty="0.9951" rightx="0.9975999999999998" righty="0.9951" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-767.6815940157206" y="-329.4468970086142" z="500"/>
+                    <rect x="0" y="0" width="0" height="0"/>
+                    <relativesize width="0" height="0" centerx="0.03699722398237832" centery="0.07709538480885311" posx="0.03699722398237832" posy="0.07709538480885311" leftx="0.03699722398237832" lefty="0.07709538480885311" rightx="0.03699722398237832" righty="0.07709538480885311" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Spline vs Time (C1)"/>
+                    <relation tag="Transformer one probe vs Time (C2)"/>
+                    <relation tag="Transformer case vs Time (C3)"/>
+                    <relation tag="Transformer cases across domain vs Time (C4)"/>
+                    <relation tag="Mamba one probe vs Time (C5)"/>
+                    <relation tag="Mamba case vs Time (C6)"/>
+                    <relation tag="Mamba cases across domain vs Time (C7)"/>
+                    <relation tag="Ground Truth vs Time (C8)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="2" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="2" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="true" overridetext="" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="Time" autolabel="true" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="0.011001932193554605" y="-21570.779083851998" width="0.0004968755306855709" height="46595.04964662532"/>
+            </plot>
+        </view>
+        <view name="Power Spectrum" width="1663" height="811" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="true" toplabelvisible="true" globalfont="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" globalfontscale="16" globalfontcolor="#000000" showlegend="false" hidebottomaxislabel="false" hidetopaxislabel="false" hideleftaxislabel="false" hiderightaxislabel="false" numberaxislabelscale="true" initialPlotNum="3" name="Plot">
+                <position x="831.5007999999999" y="405.5128" z="500"/>
+                <rect x="-828.5056" y="-402.5084" width="1657.0112" height="805.0168"/>
+                <relativesize width="0.9957999999999999" height="0.9914" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00370000000000004" leftx="0.0017999999999999726" lefty="0.9951" rightx="0.9975999999999998" righty="0.9951" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-649.0876020134614" y="-313.0911800498302" z="500"/>
+                    <rect x="0" y="0" width="0" height="0"/>
+                    <relativesize width="0" height="0" centerx="0.03699722398237832" centery="0.07709538480885311" posx="0.03699722398237832" posy="0.07709538480885311" leftx="0.03699722398237832" lefty="0.07709538480885311" rightx="0.03699722398237832" righty="0.07709538480885311" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Spline:psd vs Spline:f (C9)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="1" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="6619244"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="PSD \[V^2/Hz\]" autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="true" overridetext="" autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="true" overridetext="Spline" autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="Frequency \[Hz\]" autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="618.4481409001957" y="1.8738583270386958e-5" width="315408.5518590998" height="4553.833682985368"/>
+            </plot>
+        </view>
+        <view name="St" width="1663" height="811" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="true" toplabelvisible="true" globalfont="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" globalfontscale="16" globalfontcolor="#000000" showlegend="false" hidebottomaxislabel="false" hidetopaxislabel="false" hideleftaxislabel="false" hiderightaxislabel="false" numberaxislabelscale="true" initialPlotNum="4" name="Plot">
+                <position x="831.5007999999999" y="405.5128" z="500"/>
+                <rect x="-828.5056" y="-402.5084" width="1657.0112" height="805.0168"/>
+                <relativesize width="0.9957999999999999" height="0.9914" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00370000000000004" leftx="0.0017999999999999726" lefty="0.9951" rightx="0.9975999999999998" righty="0.9951" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-651.9013757496379" y="-310.26274311965545" z="500"/>
+                    <rect x="0" y="0" width="0" height="0"/>
+                    <relativesize width="0" height="0" centerx="0.03699722398237832" centery="0.07709538480885311" posx="0.03699722398237832" posy="0.07709538480885311" leftx="0.03699722398237832" lefty="0.07709538480885311" rightx="0.03699722398237832" righty="0.07709538480885311" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Spline St:x Low Pass:Y vs Spline St:y (C11)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="1" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="PSD \[V^2/Hz\]" autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="true" overridetext="" autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="true" overridetext="Filtered " autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="" autolabel="true" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font="Academy Engraved LET,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="0.005017618267272432" y="0.005156292383707588" width="2.55898531630894" height="2229.3514640006565"/>
+            </plot>
+        </view>
+    </graphics>
+</kst>

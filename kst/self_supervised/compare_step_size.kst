@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kst version="2.0.9">
+    <data>
+        <source reader="ASCII file" updateType="2" file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv">
+            <properties vector="INDEX" interpretation="1" delimiters="#" columntype="2" columndelimiter="," headerstart="0" fields="0" readfields="false" usedot="true" columnwidthisconst="false" readunits="false" units="0" limitFileBuffer="false" limitFileBufferSize="0" useThreads="0" asciiTimeFormat="hh:mm:ss.zzz" dataRate="1" offsetDateTime="false" offsetFileDate="false" offsetRelavive="true" dateTimeOffset="2023-10-06T14:47:22Z" relativeOffset="0" nanValue="0" updateType="2"/> initialXNum="1" initialTNum="1" initialDSNum="1"
+        </source>
+    </data>
+    <variables>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 2" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Time (ms)" initialVNum="1" initialXNum="1"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 3" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Spline" initialVNum="2" initialXNum="15"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 4" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Step size 1" initialVNum="3" initialXNum="29"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 5" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Step size 3" initialVNum="4" initialXNum="43"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 6" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Step size 6" initialVNum="5" initialXNum="57"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 7" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Step size 9" initialVNum="6" initialXNum="71"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 8" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Step size 12" initialVNum="7" initialXNum="85"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 9" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Step size 60" initialVNum="8" initialXNum="99"/>
+        <datavector file="/Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" fileRelative="Users/darylfung/Documents/Work/Dimitris/Project Pressure Signal/kst/self_supervised/csv/probe 7 3_6_6.csv" field="Column 10" start="20" count="-1" skip="-1" doAve="false" startUnits="" rangeUnits="" descriptiveNameIsManual="true" descriptiveName="Ground Truth" initialVNum="9" initialXNum="113"/>
+        <scalar orphan="true" editable="true" hidden="true" value="0.05" initialXNum="179"/>
+        <scalar orphan="true" editable="true" hidden="true" value="2" initialXNum="180"/>
+        <scalar orphan="true" editable="true" hidden="true" value="0.1" initialXNum="673"/>
+        <scalar orphan="true" editable="true" hidden="true" value="0.2" initialXNum="674"/>
+        <scalar orphan="true" editable="true" hidden="true" value="0.3" initialXNum="675"/>
+        <scalar orphan="true" editable="true" hidden="true" value="5" initialXNum="676"/>
+        <scalar orphan="true" editable="true" hidden="true" value="1" initialXNum="677"/>
+        <scalar orphan="true" editable="true" hidden="true" value="3" initialXNum="678"/>
+        <scalar orphan="true" editable="true" hidden="true" value="0.01" initialXNum="679"/>
+        <scalar orphan="true" editable="true" hidden="true" value="0.5" initialXNum="680"/>
+        <scalar orphan="true" editable="true" hidden="true" value="0" initialXNum="681"/>
+    </variables>
+    <objects>
+        <powerspectrum vector="Spline (V2)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" descriptiveNameIsManual="true" descriptiveName="Baseline" initialVNum="10" initialXNum="127" initialPSDNum="1"/>
+        <equation expression="[Baseline:f (V10)]*0.0047/579.3" xvector="Baseline:psd (V11)" interpolate="true" initialVNum="12" initialXNum="153" initialENum="1"/>
+        <plugin type="Low Pass Filter" initialVNum="14" initialXNum="179" initialPNum="1">
+            <inputvector type="Y Vector" tag="Baseline:f *0.0047/579.3:x (V12)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.05 (X179)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+        <powerspectrum vector="Step size 1 (V3)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="15" initialXNum="192" initialPSDNum="2"/>
+        <equation expression="[Step size 1:f (V15)]*0.0047/579.3" xvector="Step size 1:psd (V16)" interpolate="true" initialVNum="17" initialXNum="218" initialENum="2"/>
+        <plugin type="Low Pass Filter" initialVNum="19" initialXNum="244" initialPNum="2">
+            <inputvector type="Y Vector" tag="Step size 1:f *0.0047/579.3:x (V17)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.05 (X179)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+        <powerspectrum vector="Step size 3 (V4)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="20" initialXNum="257" initialPSDNum="3"/>
+        <equation expression="[Step size 3:f (V20)]*0.0047/579.3" xvector="Step size 3:psd (V21)" interpolate="true" initialVNum="22" initialXNum="283" initialENum="3"/>
+        <plugin type="Low Pass Filter" initialVNum="24" initialXNum="309" initialPNum="3">
+            <inputvector type="Y Vector" tag="Step size 3:f *0.0047/579.3:x (V22)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.05 (X179)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+        <powerspectrum vector="Step size 6 (V5)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="25" initialXNum="322" initialPSDNum="4"/>
+        <equation expression="[Step size 6:f (V25)]*0.0047/579.3" xvector="Step size 6:psd (V26)" interpolate="true" initialVNum="27" initialXNum="348" initialENum="4"/>
+        <plugin type="Low Pass Filter" initialVNum="29" initialXNum="374" initialPNum="4">
+            <inputvector type="Y Vector" tag="Step size 6:f *0.0047/579.3:x (V27)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.05 (X179)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+        <powerspectrum vector="Step size 9 (V6)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="30" initialXNum="387" initialPSDNum="5"/>
+        <equation expression="[Step size 9:f (V30)]*0.0047/579.3" xvector="Step size 9:psd (V31)" interpolate="true" initialVNum="32" initialXNum="413" initialENum="5"/>
+        <plugin type="Low Pass Filter" initialVNum="34" initialXNum="439" initialPNum="5">
+            <inputvector type="Y Vector" tag="Step size 9:f *0.0047/579.3:x (V32)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.1 (X673)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+        <powerspectrum vector="Step size 12 (V7)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="35" initialXNum="452" initialPSDNum="6"/>
+        <equation expression="[Step size 12:f (V35)]*0.0047/579.3" xvector="Step size 12:psd (V36)" interpolate="true" initialVNum="37" initialXNum="478" initialENum="6"/>
+        <plugin type="Low Pass Filter" initialVNum="39" initialXNum="504" initialPNum="6">
+            <inputvector type="Y Vector" tag="Step size 12:f *0.0047/579.3:x (V37)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.05 (X179)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+        <powerspectrum vector="Step size 60 (V8)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="40" initialXNum="517" initialPSDNum="7"/>
+        <equation expression="[Step size 60:f (V40)]*0.0047/579.3" xvector="Step size 60:psd (V41)" interpolate="true" initialVNum="44" initialXNum="569" initialENum="8"/>
+        <plugin type="Low Pass Filter" initialVNum="46" initialXNum="595" initialPNum="7">
+            <inputvector type="Y Vector" tag="Step size 60:f *0.0047/579.3:x (V44)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.05 (X179)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+        <powerspectrum vector="Ground Truth (V9)" samplerate="634146" gaussiansigma="1" average="true" fftlength="10" removemean="true" apodize="true" apodizefunction="8" vectorunits="V" rateunits="Hz" outputtype="1" initialVNum="47" initialXNum="608" initialPSDNum="8"/>
+        <equation expression="[Ground Truth:f (V47)]*0.0047/579.3" xvector="Ground Truth:psd (V48)" interpolate="true" initialVNum="49" initialXNum="634" initialENum="9"/>
+        <plugin type="Low Pass Filter" initialVNum="51" initialXNum="660" initialPNum="8">
+            <inputvector type="Y Vector" tag="Ground Truth:f *0.0047/579.3:x (V49)"/>
+            <inputscalar type="Cutoff / Spacing Scalar" tag="0.05 (X179)"/>
+            <inputscalar type="Order Scalar" tag="0 (X681)"/>
+            <outputvector type="Y" tag="Y"/>
+        </plugin>
+    </objects>
+    <relations>
+        <curve xvector="Time (ms) (V1)" yvector="Spline (V2)" color="#20ffff" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="0" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="1"/>
+        <curve xvector="Time (ms) (V1)" yvector="Step size 1 (V3)" color="#21ff06" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="1" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="2"/>
+        <curve xvector="Time (ms) (V1)" yvector="Step size 3 (V4)" color="#fc02ff" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="2" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="3"/>
+        <curve xvector="Time (ms) (V1)" yvector="Step size 6 (V5)" color="#fd8008" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="3" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="4"/>
+        <curve xvector="Time (ms) (V1)" yvector="Step size 9 (V6)" color="#fc0107" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="4" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="5"/>
+        <curve xvector="Time (ms) (V1)" yvector="Step size 12 (V7)" color="#ffff0a" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="5" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="6"/>
+        <curve xvector="Time (ms) (V1)" yvector="Step size 60 (V8)" color="#ffff0a" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="7"/>
+        <curve xvector="Time (ms) (V1)" yvector="Ground Truth (V9)" color="#000000" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="7" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="8"/>
+        <curve xvector="Baseline:f (V10)" yvector="Baseline:psd (V11)" color="#aa00aa" alpha="255" headcolor="#2e5778" headalpha="255" barfillcolor="#350a0a" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="9"/>
+        <curve xvector="Baseline:f *0.0047/579.3:x (V12)" yvector="Baseline:f *0.0047/579.3:y (V13)" color="#0000ff" alpha="255" headcolor="#008000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="10"/>
+        <curve xvector="Baseline:f *0.0047/579.3:y (V13)" yvector="Baseline:f *0.0047/579.3:x Low Pass:Y (V14)" color="#20ffff" alpha="255" headcolor="#105010" headalpha="255" barfillcolor="#aa0000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="11"/>
+        <curve xvector="Step size 1:f (V15)" yvector="Step size 1:psd (V16)" color="#0000ff" alpha="255" headcolor="#008000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="12"/>
+        <curve xvector="Step size 1:f *0.0047/579.3:x (V17)" yvector="Step size 1:f *0.0047/579.3:y (V18)" color="#ff00ff" alpha="255" headcolor="#4682b4" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="13"/>
+        <curve xvector="Step size 1:f *0.0047/579.3:y (V18)" yvector="Step size 1:f *0.0047/579.3:x Low Pass:Y (V19)" color="#21ff06" alpha="255" headcolor="#005500" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="14"/>
+        <curve xvector="Step size 3:f (V20)" yvector="Step size 3:psd (V21)" color="#aa00aa" alpha="255" headcolor="#2e5778" headalpha="255" barfillcolor="#350a0a" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="15"/>
+        <curve xvector="Step size 3:f *0.0047/579.3:x (V22)" yvector="Step size 3:f *0.0047/579.3:y (V23)" color="#0a350a" alpha="255" headcolor="#ff0000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="16"/>
+        <curve xvector="Step size 3:f *0.0047/579.3:y (V23)" yvector="Step size 3:f *0.0047/579.3:x Low Pass:Y (V24)" color="#ff00ff" alpha="255" headcolor="#4682b4" headalpha="255" barfillcolor="#501010" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="17"/>
+        <curve xvector="Step size 6:f (V25)" yvector="Step size 6:psd (V26)" color="#105010" alpha="255" headcolor="#aa0000" headalpha="255" barfillcolor="#0000aa" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="18"/>
+        <curve xvector="Step size 6:f *0.0047/579.3:x (V27)" yvector="Step size 6:f *0.0047/579.3:y (V28)" color="#005500" alpha="255" headcolor="#000000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="19"/>
+        <curve xvector="Step size 6:f *0.0047/579.3:y (V28)" yvector="Step size 6:f *0.0047/579.3:x Low Pass:Y (V29)" color="#fd8008" alpha="255" headcolor="#ff0000" headalpha="255" barfillcolor="#0000ff" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="20"/>
+        <curve xvector="Step size 9:f (V30)" yvector="Step size 9:psd (V31)" color="#ff00ff" alpha="255" headcolor="#4682b4" headalpha="255" barfillcolor="#501010" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="21"/>
+        <curve xvector="Step size 9:f *0.0047/579.3:x (V32)" yvector="Step size 9:f *0.0047/579.3:y (V33)" color="#105010" alpha="255" headcolor="#aa0000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="22"/>
+        <curve xvector="Step size 9:f *0.0047/579.3:y (V33)" yvector="Step size 9:f *0.0047/579.3:x Low Pass:Y (V34)" color="#fc0107" alpha="255" headcolor="#2e5778" headalpha="255" barfillcolor="#350a0a" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="23"/>
+        <curve xvector="Step size 12:f (V35)" yvector="Step size 12:psd (V36)" color="#0000ff" alpha="255" headcolor="#008000" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="24"/>
+        <curve xvector="Step size 12:f *0.0047/579.3:x (V37)" yvector="Step size 12:f *0.0047/579.3:y (V38)" color="#ff00ff" alpha="255" headcolor="#4682b4" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="25"/>
+        <curve xvector="Step size 12:f *0.0047/579.3:y (V38)" yvector="Step size 12:f *0.0047/579.3:x Low Pass:Y (V39)" color="#ffff0a" alpha="255" headcolor="#005500" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="26"/>
+        <curve xvector="Step size 60:f (V40)" yvector="Step size 60:psd (V41)" color="#350a0a" alpha="255" headcolor="#0a350a" headalpha="255" barfillcolor="#ff0000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="27"/>
+        <curve xvector="Step size 60:f *0.0047/579.3:x (V44)" yvector="Step size 60:f *0.0047/579.3:y (V45)" color="#501010" alpha="255" headcolor="#105010" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="29"/>
+        <curve xvector="Step size 60:f *0.0047/579.3:y (V45)" yvector="Step size 60:f *0.0047/579.3:x Low Pass:Y (V46)" color="#ffff0a" alpha="255" headcolor="#aa00aa" headalpha="255" barfillcolor="#2e5778" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="30"/>
+        <curve xvector="Ground Truth:f (V47)" yvector="Ground Truth:psd (V48)" color="#350a0a" alpha="255" headcolor="#0a350a" headalpha="255" barfillcolor="#ff0000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="31"/>
+        <curve xvector="Ground Truth:f *0.0047/579.3:x (V49)" yvector="Ground Truth:f *0.0047/579.3:y (V50)" color="#000000" alpha="255" headcolor="#ff00ff" headalpha="255" barfillcolor="#000000" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="32"/>
+        <curve xvector="Ground Truth:f *0.0047/579.3:y (V50)" yvector="Ground Truth:f *0.0047/579.3:x Low Pass:Y (V51)" color="#000000" alpha="255" headcolor="#0000aa" headalpha="255" barfillcolor="#005500" barfillalpha="255" haslines="true" linewidth="3" linestyle="0" haspoints="false" pointtype="6" pointdensity="0" pointsize="3" hasbars="false" ignoreautoscale="false" hashead="false" headtype="0" initialCNum="33"/>
+    </relations>
+    <graphics currentTab="0">
+        <view name="Pressure Signal" width="1663" height="811" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="false" toplabelvisible="false" globalfont="Arial,12,-1,5,50,0,0,0,0,0" globalfontscale="20" globalfontcolor="#000000" showlegend="false" hidebottomaxislabel="false" hidetopaxislabel="true" hideleftaxislabel="false" hiderightaxislabel="true" numberaxislabelscale="true" initialPlotNum="3" name="Plot">
+                <position x="831.4989999999999" y="405.50910000000005" z="500"/>
+                <rect x="-828.5056" y="-402.5084" width="1656.0153999999998" height="804.0254"/>
+                <relativesize width="0.9957999999999999" height="0.9914" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00370000000000004" leftx="0.0017999999999999726" lefty="0.9951" rightx="0.9975999999999998" righty="0.9951" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" fontscale="12" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-632.7722934010364" y="-348.46238547117673" z="500"/>
+                    <rect x="0" y="0" width="0" height="0"/>
+                    <relativesize width="0" height="0" centerx="0.03704550254971183" centery="0.07688658567134268" posx="0.03704550254971183" posy="0.07688658567134268" leftx="0.03704550254971183" lefty="0.07688658567134268" rightx="0.03704550254971183" righty="0.07688658567134268" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Ground Truth vs Time (ms) (C8)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="false" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="-2147483648"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="false" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="850345903"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="Pressure (Pa)" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="false" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="false" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="Time (ms)" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="0.00112386" y="-299.45587" width="0.00028297999999999995" height="784.06912"/>
+            </plot>
+        </view>
+        <view name="Zoom" width="1663" height="811" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="false" toplabelvisible="false" globalfont="Arial,12,-1,5,50,0,0,0,0,0" globalfontscale="20" globalfontcolor="#000000" showlegend="false" hidebottomaxislabel="false" hidetopaxislabel="true" hideleftaxislabel="false" hiderightaxislabel="true" numberaxislabelscale="true" initialPlotNum="1" name="Plot">
+                <position x="831.4989999999999" y="405.50915000000003" z="500"/>
+                <rect x="-828.5056" y="-402.54900000000004" width="1656.0153999999998" height="804.1065"/>
+                <relativesize width="0.9957999999999999" height="0.9915" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00364999999999999" leftx="0.0017999999999999726" lefty="0.9951500000000001" rightx="0.9975999999999998" righty="0.9951500000000001" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="12" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-167.37613500999998" y="-314.62382275000004" z="500"/>
+                    <rect x="-465.01048744499997" y="-34.49620825" width="929.9999999999998" height="68.70928582633752"/>
+                    <relativesize width="0.6136905857191627" height="0.09773547610102025" centerx="0.3441452928595814" centery="0.12486773805051014" posx="0.037300000000000014" posy="0.07600000000000003" leftx="0.037300000000000014" lefty="0.17373547610102028" rightx="0.6509905857191628" righty="0.17373547610102028" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#ffffff" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                    <relation tag="Spline vs Time (ms) (C1)"/>
+                    <relation tag="Step size 1 vs Time (ms) (C2)"/>
+                    <relation tag="Step size 3 vs Time (ms) (C3)"/>
+                    <relation tag="Step size 6 vs Time (ms) (C4)"/>
+                    <relation tag="Step size 9 vs Time (ms) (C5)"/>
+                    <relation tag="Step size 12 vs Time (ms) (C6)"/>
+                    <relation tag="Step size 60 vs Time (ms) (C7)"/>
+                    <relation tag="Ground Truth vs Time (ms) (C8)"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Spline vs Time (ms) (C1)"/>
+                    <relation tag="Step size 1 vs Time (ms) (C2)"/>
+                    <relation tag="Step size 3 vs Time (ms) (C3)"/>
+                    <relation tag="Step size 6 vs Time (ms) (C4)"/>
+                    <relation tag="Step size 9 vs Time (ms) (C5)"/>
+                    <relation tag="Step size 12 vs Time (ms) (C6)"/>
+                    <relation tag="Ground Truth vs Time (ms) (C8)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="false" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="2" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="false" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="false" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="2" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="Pressure (Pa)" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="false" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="false" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="Time (ms)" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="20" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="0.0011521338525564816" y="-334.48272453381367" width="5.433945067367875e-5" height="841.4777859896567"/>
+            </plot>
+        </view>
+        <view name="St" width="1663" height="811" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="false" toplabelvisible="false" globalfont="Arial,12,-1,5,50,0,0,0,0,0" globalfontscale="22" globalfontcolor="#000000" showlegend="false" hidebottomaxislabel="false" hidetopaxislabel="true" hideleftaxislabel="false" hiderightaxislabel="true" numberaxislabelscale="true" initialPlotNum="2" name="Plot">
+                <position x="831.4989999999999" y="405.50910000000005" z="500"/>
+                <rect x="-828.5056" y="-402.5084" width="1656.0153999999998" height="804.0254"/>
+                <relativesize width="0.9957999999999999" height="0.9914" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00370000000000004" leftx="0.0017999999999999726" lefty="0.9951" rightx="0.9975999999999998" righty="0.9951" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="12" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-585.0373270749999" y="-347.861787365" z="500"/>
+                    <rect x="0" y="0" width="0" height="0"/>
+                    <relativesize width="0" height="0" centerx="0.03700000000000003" centery="0.07689999999999997" posx="0.03700000000000003" posy="0.07689999999999997" leftx="0.03700000000000003" lefty="0.07689999999999997" rightx="0.03700000000000003" righty="0.07689999999999997" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                    <relation tag="Baseline:f *0.0047/579.3:x Low Pass:Y vs Baseline:f *0.0047/579.3:y (C11)"/>
+                    <relation tag="Step size 1:f *0.0047/579.3:x Low Pass:Y vs Step size 1:f *0.0047/579.3:y (C14)"/>
+                    <relation tag="Step size 3:f *0.0047/579.3:x Low Pass:Y vs Step size 3:f *0.0047/579.3:y (C17)"/>
+                    <relation tag="Step size 6:f *0.0047/579.3:x Low Pass:Y vs Step size 6:f *0.0047/579.3:y (C20)"/>
+                    <relation tag="Step size 9:f *0.0047/579.3:x Low Pass:Y vs Step size 9:f *0.0047/579.3:y (C23)"/>
+                    <relation tag="Step size 12:f *0.0047/579.3:x Low Pass:Y vs Step size 12:f *0.0047/579.3:y (C26)"/>
+                    <relation tag="Step size 60:f *0.0047/579.3:x Low Pass:Y vs Step size 60:f *0.0047/579.3:y (C30)"/>
+                    <relation tag="Ground Truth:f *0.0047/579.3:x Low Pass:Y vs Ground Truth:f *0.0047/579.3:y (C33)"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Baseline:f *0.0047/579.3:x Low Pass:Y vs Baseline:f *0.0047/579.3:y (C11)"/>
+                    <relation tag="Step size 1:f *0.0047/579.3:x Low Pass:Y vs Step size 1:f *0.0047/579.3:y (C14)"/>
+                    <relation tag="Step size 3:f *0.0047/579.3:x Low Pass:Y vs Step size 3:f *0.0047/579.3:y (C17)"/>
+                    <relation tag="Step size 6:f *0.0047/579.3:x Low Pass:Y vs Step size 6:f *0.0047/579.3:y (C20)"/>
+                    <relation tag="Step size 9:f *0.0047/579.3:x Low Pass:Y vs Step size 9:f *0.0047/579.3:y (C23)"/>
+                    <relation tag="Step size 12:f *0.0047/579.3:x Low Pass:Y vs Step size 12:f *0.0047/579.3:y (C26)"/>
+                    <relation tag="Ground Truth:f *0.0047/579.3:x Low Pass:Y vs Ground Truth:f *0.0047/579.3:y (C33)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="false" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="false" drawmajorgridlines="false" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="1" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="-741276524"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="Power Spectrum (Pa^2)&#10;" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="22" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="false" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="22" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="false" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="22" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="St" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="22" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="22" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="0.005034225799880617" y="4.7409313024160264e-11" width="2.567455157939115" height="6.75591249045735"/>
+            </plot>
+        </view>
+        <view name="PS" width="1663" height="811" color="#ffffff" style="1">
+            <plot tiedxzoom="false" tiedyzoom="false" leftlabelvisible="true" bottomlabelvisible="true" rightlabelvisible="true" toplabelvisible="true" globalfont="Arial,12,-1,5,50,0,0,0,0,0" globalfontscale="16" globalfontcolor="#000000" showlegend="false" hidebottomaxislabel="false" hidetopaxislabel="false" hideleftaxislabel="false" hiderightaxislabel="false" numberaxislabelscale="true" initialPlotNum="3" name="Plot">
+                <position x="831.4989999999999" y="405.50910000000005" z="500"/>
+                <rect x="-828.5056" y="-402.5084" width="1656.0153999999998" height="804.0254"/>
+                <relativesize width="0.9957999999999999" height="0.9914" centerx="0.4996999999999999" centery="0.4994" posx="0.0017999999999999726" posy="0.00370000000000004" leftx="0.0017999999999999726" lefty="0.9951" rightx="0.9975999999999998" righty="0.9951" fixaspect="false" lockpostodata="false"/>
+                <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                    <brush color="#000000" alpha="1" style="1"/>
+                </pen>
+                <brush color="#ffffff" alpha="1" style="1"/>
+                <legend auto="true" title="" font=".AppleSystemUIFont,12,-1,5,50,0,0,0,0,0" fontscale="12" color="#000000" verticaldisplay="false" name="Legend">
+                    <position x="-664.8617333249999" y="-334.61376041" z="500"/>
+                    <rect x="0" y="0" width="0" height="0"/>
+                    <relativesize width="0" height="0" centerx="0.03699999999999999" centery="0.07709999999999999" posx="0.03699999999999999" posy="0.07709999999999999" leftx="0.03699999999999999" lefty="0.07709999999999999" rightx="0.03699999999999999" righty="0.07709999999999999" fixaspect="false" lockpostodata="false"/>
+                    <transform m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1"/>
+                    <pen style="1" width="0" miterlimit="2" cap="16" joinStyle="64">
+                        <brush color="#000000" alpha="1" style="1"/>
+                    </pen>
+                    <brush color="#ffffff" alpha="1" style="1"/>
+                    <relation tag="Baseline:psd vs Baseline:f (C9)"/>
+                    <relation tag="Step size 1:psd vs Step size 1:f (C12)"/>
+                    <relation tag="Step size 3:psd vs Step size 3:f (C15)"/>
+                    <relation tag="Step size 6:psd vs Step size 6:f (C18)"/>
+                    <relation tag="Step size 9:psd vs Step size 9:f (C21)"/>
+                    <relation tag="Step size 12:psd vs Step size 12:f (C24)"/>
+                    <relation tag="Step size 60:psd vs Step size 60:f (C27)"/>
+                    <relation tag="Ground Truth:psd vs Ground Truth:f (C31)"/>
+                </legend>
+                <cartesianrender name="Cartesian Plot" type="1">
+                    <relation tag="Baseline:psd vs Baseline:f (C9)"/>
+                    <relation tag="Step size 1:psd vs Step size 1:f (C12)"/>
+                    <relation tag="Step size 3:psd vs Step size 3:f (C15)"/>
+                    <relation tag="Step size 6:psd vs Step size 6:f (C18)"/>
+                    <relation tag="Step size 9:psd vs Step size 9:f (C21)"/>
+                    <relation tag="Step size 12:psd vs Step size 12:f (C24)"/>
+                    <relation tag="Step size 60:psd vs Step size 60:f (C27)"/>
+                    <relation tag="Ground Truth:psd vs Ground Truth:f (C31)"/>
+                </cartesianrender>
+                <plotaxis id="xaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="true" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotaxis id="yaxis" visible="true" log="true" reversed="false" autobaseoffset="true" baseoffset="false" forceoffsetmin="false" interpret="false" interpretation="1" display="4" displayformatstring="hh:mm:ss.zzz" majortickmode="5" minortickcount="5" autominortickcount="true" drawmajorticks="true" drawminorticks="true" drawmajorgridlines="true" drawminorgridlines="false" drawmajorgridlinecolor="#a0a0a4" drawminorgridlinecolor="#a0a0a4" drawmajorgridlinestyle="2" drawminorgridlinestyle="2" drawmajorgridlinewidth="1" drawminorgridlinewidth="1" significantdigits="9" rotation="0" zoommode="0" timezonename="GMT" timezoneoffset="0">
+                    <plotmarkers xaxis="false" linecolor="#000000" linestyle="1" linewidth="1" curvemode="0"/>
+                </plotaxis>
+                <plotlabel id="leftlabel" visible="true" overridetext="PSD \[V^2/Hz\]" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="rightlabel" visible="true" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="toplabel" visible="true" overridetext="" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="bottomlabel" visible="true" overridetext="Frequency \[Hz\]" autolabel="true" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <plotlabel id="numberlabel" visible="true" overridetext="" autolabel="false" font="Arial,12,-1,5,50,0,0,0,0,0" fontscale="16" fontcolor="#000000" fontuseglobal="true"/>
+                <projectionrect x="620.4951076320939" y="1.7476769033841273e-10" width="316452.5048923679" height="7.330723850861838"/>
+            </plot>
+        </view>
+    </graphics>
+</kst>
